@@ -1,0 +1,54 @@
+#barra {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px;
+    background-color:#831818; 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    position: sticky; 
+    top: 0;
+    z-index: 1000;
+  }
+  
+  #barraImg {
+    width: 300px; 
+    height: auto;
+  }
+  
+  
+  .navbar-nav {
+    display: flex;
+    gap: 20px; 
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #barraFont {
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+}
+  
+  #barraFont a {
+    text-decoration: none;
+    color: white; 
+    transition: color 0.3s, transform 0.2s;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background-color: #ffffff;
+    color: #fff;
+    line-height: 1.6;
+    text-align: center;
+    padding: 20px;
+  }
+  
