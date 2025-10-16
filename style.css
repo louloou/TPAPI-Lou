@@ -1,6 +1,11 @@
+/*  https://youtu.be/cLOT0APQzDs?si=mVeD0k0hwW6MYZhV */
 
 :root{
   --pink: #f4436f
+}
+
+body{
+  background-color: #ffeaf648;
 }
 
 *{
@@ -117,10 +122,7 @@ header .fa-bars{
   display: flex;
   align-items: center;
   min-height: 100vh;
-  background: url('banner.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  background-color: #ffe7f5;
 }
 
 .home .content{
