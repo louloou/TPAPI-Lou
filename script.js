@@ -35,7 +35,8 @@ fetch("https://fakestoreapi.com/products")
     }
   })
 
-let reviewsContainer = document.querySelector("#reviews-container");
+
+  let reviewsContainer = document.querySelector("#reviews-container");
 fetch("https://randomuser.me/api/?results=6&gender=female&nat=us,es,fr,gb,br,mx")
   .then(res => res.json())
   .then(data => {
@@ -76,6 +77,6 @@ fetch("https://randomuser.me/api/?results=6&gender=female&nat=us,es,fr,gb,br,mx"
         <span class="fas fa-quote-right"></span>
       `;
 
-      reviewsContainer.appendChild(box);
+      reviewsContainer.appendChild(box);  //?
     });
   })
